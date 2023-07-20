@@ -17,6 +17,10 @@ Placement to handing it over to the customer . Use spring repository, controller
 
 # Design Meeting Room Booking 
 
+Problem Statement : 
+
+Requirements: 
+
 Design API contract and DB schema for meeting room booking reservation .
 Such that both manager and employee can book seat . 
 
@@ -29,3 +33,12 @@ Such that both manager and employee can book seat .
 2. What if manager has already booked and an Employee comes to book again 
 3. What if Manager is trying to book for a team where one of the Employee has already Booked
 4. How to handle when multiple Employees come to book seat?
+
+# Design OTP Generator and Validator Service 
+
+Problem Statement : 
+
+Requirements: 
+
+1. Can have multiple clients
+2. can be of different length to serve different purpose - delivery verification / account retrieval etc
